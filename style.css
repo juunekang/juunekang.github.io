@@ -33,3 +33,16 @@ a:hover {
     justify-content: center;
     font-size: 15px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links {
+    display :flex;
+    flex-direction: row;
+        justify-content: space-around;
+    align-items: center;
+}
