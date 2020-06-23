@@ -38,6 +38,8 @@ a:hover {
     display: flex;
     justify-content: center;
     font-size: 15px;
+    flex-direction: row;
+    padding-top: 30px;
 }
 
 main {
@@ -63,5 +65,19 @@ header {
 }
 
 #photoSide {
-    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    align-items: center;
+}
+
+#aboutP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hello {
+    font-weight: 400;
+    font-size: 40px;
 }
