@@ -61,3 +61,7 @@ header {
     align-items: center;
     width: 125px;
 }
+
+#photoSide {
+    padding-top: 30px;
+}
