@@ -107,10 +107,6 @@ header {
     font-size: 30px;
 }
 
-#swf {
-    margin-bottom: 20px;
-}
-
 #swfPhoto {
     display: flex;
     justify-content: center;
@@ -139,6 +135,7 @@ header {
 .eachItem {
     display: flex;
     flex-direction: row;
+        margin-bottom: 20px;
 }
 
 .worksWords {
