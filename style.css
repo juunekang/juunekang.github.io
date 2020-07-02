@@ -165,3 +165,7 @@ header {
     color: grey;
     font-size: 17px;
 }
+
+@media (min-width: 480px) {
+
+}

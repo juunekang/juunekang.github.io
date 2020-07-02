@@ -1,7 +1,7 @@
 "use strict";
 
     var i = 0;
-    var txt = 'Hello world! I am June.';
+    var txt = "Hello world. I'm June!";
     var speed = 76;
 
 
