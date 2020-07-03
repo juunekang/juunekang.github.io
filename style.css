@@ -46,14 +46,31 @@ a:hover {
     font-size: 27px;
     font-weight: 400;
     flex-direction: row;
-    padding-top: 30px;
+    margin-top: 25px;
 }
 
-#under {
+#inpic {
+    width: 400px;
+    height: 550px;
+}
+
+#indexPic {
+    width: 550px;
+}
+
+#projectsOp {
     display: flex;
+    align-items: center;
     justify-content: center;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 53px;
+    border-style: solid;
+    border-width: 1px;
+    width: 180px;
+    height: 60px;
+}
+#indexWord {
+    width: 550px;
+    font-size: 60px;
 }
 
 main {
@@ -144,7 +161,7 @@ header {
 .eachItem {
     display: flex;
     flex-direction: row;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .worksWords {

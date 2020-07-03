@@ -1,7 +1,7 @@
 "use strict";
 
     var i = 0;
-    var txt = "Hello world. I'm June!";
+    var txt = "Hello world. I'm June! Check out my projects below.";
     var speed = 76;
 
 
@@ -16,4 +16,5 @@ window.onload = function() {
         i++;
         setTimeout(typeWriter, speed);
         }
+            document.getElementById("projectsOp").style.display = "flex";
     }
