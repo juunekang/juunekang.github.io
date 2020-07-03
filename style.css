@@ -47,11 +47,12 @@ a:hover {
     font-weight: 400;
     flex-direction: row;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #inpic {
-    width: 400px;
-    height: 550px;
+    width: 430px;
+    height: 570px;
 }
 
 #indexPic {
@@ -59,15 +60,16 @@ a:hover {
 }
 
 #projectsOp {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     font-size: 53px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 3px;
     width: 180px;
     height: 60px;
 }
+
 #indexWord {
     width: 550px;
     font-size: 60px;
@@ -113,8 +115,9 @@ header {
     width: 550px;
 }
 
-#photoCaption {
+.photoCaption {
     display: flex;
+    font-size: 20px;
     width: 420px;
     justify-content: center;
 }
@@ -185,4 +188,37 @@ header {
 
 @media (min-width: 480px) {
 
+}
+
+/*trying fade in*/
+.fade-in {
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }

@@ -3,6 +3,7 @@
     var i = 0;
     var txt = "Hello world. I'm June! Check out my projects below.";
     var speed = 76;
+    var done = 0;
 
 
 window.onload = function() {
@@ -16,5 +17,12 @@ window.onload = function() {
         i++;
         setTimeout(typeWriter, speed);
         }
-            document.getElementById("projectsOp").style.display = "flex";
+        if (i == txt.length) {
+            showButton();
+        }
     }
+
+function showButton() {
+    document.getElementById("projectsOp").className = "fade-in"
+    document.getElementById("projectsOp").style.display = "flex";
+}
