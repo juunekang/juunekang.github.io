@@ -16,15 +16,12 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 23px;
-    justify-content: center;
+    align-items: center;
+
 }
 
-#leftNav {
-    margin-left: 140px;
-}
 
 #rightNav {
-    margin-right: 140px;
     width: 250px;
     display: flex;
     justify-content: space-between;
@@ -43,21 +40,19 @@ a:hover {
 #mainP{
     display: flex;
     flex-direction: column;
-
     font-size: 27px;
     font-weight: 400;
-
-    margin-top: 25px;
     margin-bottom: 25px;
+    align-items: center;
 }
 
 #inpic {
-    width: 330px;
-    height: 470px;
+    width: 75vw;
+    height: 90vw;
 }
 
 #indexPic {
-    width: 350px;
+    width: 75vw;
 }
 
 #projectsOp {
@@ -73,8 +68,12 @@ a:hover {
 }
 
 #indexWord {
-    width: 350px;
+    width: 75vw;
     font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 main {
@@ -120,7 +119,6 @@ header {
 .photoCaption {
     display: flex;
     font-size: 20px;
-    width: 420px;
     justify-content: center;
 }
 
@@ -188,7 +186,7 @@ header {
     font-size: 17px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 850px) {
     #navBar {
     display: flex;
     flex-direction: row;
@@ -212,6 +210,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 25px;
+    align-items: flex-start;
 }
 #inpic {
     width: 430px;
@@ -224,6 +224,10 @@ header {
 
 #indexWord {
     width: 550px;
+}
+
+.photoCaption {
+    width: 420px;
 }
 
 }
