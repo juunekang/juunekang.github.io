@@ -151,6 +151,12 @@ header {
     background-color: black;
 }
 
+#swfpic{
+    width:180px;
+    height:180px;
+
+}
+
 .photoSide:hover .photo {
     opacity: 0.3;
 }
@@ -291,6 +297,11 @@ header {
 #swfPhoto {
         width: 400px;
     height:300px;
+}
+#swfpic{
+    width:210px;
+    height:210px;
+
 }
 
 }
