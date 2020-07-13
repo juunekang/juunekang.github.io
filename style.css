@@ -146,8 +146,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height:300px;
+    width: 80vw;
+    height: 60vw;
     background-color: black;
 }
 
@@ -157,6 +157,8 @@ header {
 
 .photo {
     transition: .5s ease;
+    width: 80vw;
+    height: 60vw;
 }
 
 .items {
@@ -280,6 +282,17 @@ header {
 .title {
     font-size: 30px;
     }
+
+.photo {
+    width: 400px;
+    height:300px;
+}
+
+#swfPhoto {
+        width: 400px;
+    height:300px;
+}
+
 }
 
 /*trying fade in*/
