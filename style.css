@@ -97,15 +97,6 @@ header {
     width: 125px;
 }
 
-.photoSide {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-weight: 400;
-    font-size: 20px;
-    width: 450px;
-}
-
 #aboutPhoto {
     display: flex;
     flex-direction: column;
@@ -142,6 +133,15 @@ header {
     font-size: 20px;
 }
 
+.photoSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 400;
+    font-size: 20px;
+    width: 83vw;
+}
+
 #swfPhoto {
     display: flex;
     justify-content: center;
@@ -162,28 +162,27 @@ header {
 .items {
     display: flex;
     flex-direction: column;
-    margin-left: 160px;
-    margin-right: 160px;
+    align-items: center;
     padding-top: 20px;
 }
 
 .eachItem {
     display: flex;
-    flex-direction: row;
-    margin-bottom: 20px;
+    flex-direction: column;
+    margin-bottom: 26px;
 }
 
 .worksWords {
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     font-weight: 400;
-    width: 650px;
+    width: 83vw;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -260,6 +259,27 @@ header {
     font-size:30px;
 }
 
+.eachItem {
+    flex-direction: row;
+}
+
+.photoSide {
+    width: 450px;
+}
+
+.worksWords {
+    width: 650px;
+        font-size: 20px;
+}
+
+.items {
+        margin-left: 160px;
+    margin-right: 160px;
+}
+
+.title {
+    font-size: 30px;
+    }
 }
 
 /*trying fade in*/
