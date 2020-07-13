@@ -75,7 +75,6 @@ a:hover {
     height: 220px;
 }
 
-
 main {
     flex-grow: 1;
 }
@@ -110,16 +109,23 @@ header {
 #aboutPhoto {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     font-weight: 400;
     font-size: 20px;
-    width: 550px;
+    width: 75vw;
+    margin-top: 15px;
+}
+
+#aboutpic {
+    width: 83vw;
+    height: 110vw;
 }
 
 .photoCaption {
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 #aboutP {
@@ -127,13 +133,13 @@ header {
     flex-direction: column;
     align-items: flex-start;
     font-weight: 400;
-    font-size: 20px;
-    width: 550px;
+    font-size: 16px;
+    width: 83vw;
 }
 
 #hello {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #swfPhoto {
@@ -229,12 +235,29 @@ header {
 
 .photoCaption {
     width: 420px;
+    font-size: 20px;
 }
 #projectsOp {
     font-size: 53px;
         border-width: 3px;
     width: 180px;
     height: 60px;
+}
+
+#aboutP{
+    width: 550px;
+    font-size: 20px;
+}
+#aboutPhoto {
+ width: 550px;
+ margin-top: 0;
+}
+#aboutpic {
+        width: 430px;
+    height: 570px;
+}
+#hello {
+    font-size:30px;
 }
 
 }
